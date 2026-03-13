@@ -1,0 +1,106 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f7f7f5;
+  color: #1a1a1a;
+  font-family: 'DM Mono', monospace;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 80px 24px 60px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ── Header ── */
+header {
+  margin-bottom: 56px;
+}
+
+.course {
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 0 0 14px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0 0 6px;
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #999;
+  margin: 0;
+  font-style: italic;
+}
+
+/* ── Nav links ── */
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+nav a {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding: 12px 0;
+  font-size: 14px;
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px solid #e8e8e4;
+  transition: color 0.15s;
+}
+
+nav a:first-child {
+  border-top: 1px solid #e8e8e4;
+}
+
+nav a:hover {
+  color: #555;
+}
+
+nav a.tbd {
+  color: #bbb;
+}
+
+nav a.tbd:hover {
+  color: #999;
+}
+
+.num {
+  font-size: 11px;
+  color: #bbb;
+  min-width: 28px;
+  letter-spacing: 0.05em;
+}
+
+/* ── Footer ── */
+footer {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid #e8e8e4;
+}
+
+footer p {
+  font-size: 11px;
+  color: #bbb;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+}

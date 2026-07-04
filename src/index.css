@@ -1,0 +1,90 @@
+:root {
+  --color-bg: #e2dbd5;
+  --color-dark: #012611;
+  --color-muted: #59735b;
+  --color-muted-2: #736a68;
+  --color-box-bg: #d9cfc7;
+  --color-accent: #aabfa4;
+  --color-accent-heading: #345b48;
+  --color-placeholder: #c4c4c4;
+  --color-timeline-active: #6aa67f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-dark);
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.page-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.page {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+  background: var(--color-bg);
+}
+
+/* shared typography */
+
+.text-black {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+.text-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: var(--color-muted);
+}

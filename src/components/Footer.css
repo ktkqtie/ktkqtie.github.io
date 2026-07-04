@@ -1,0 +1,31 @@
+.footer {
+  width: 246px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-absolute {
+  position: absolute;
+}
+
+.footer-static {
+  position: static;
+}
+
+.footer-name,
+.footer-updated {
+  font-size: 16px;
+}
+
+.footer-email {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.footer-email img {
+  width: 16px;
+  height: 16px;
+}

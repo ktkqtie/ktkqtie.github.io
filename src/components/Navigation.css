@@ -1,0 +1,59 @@
+.nav {
+  position: absolute;
+  left: 279px;
+  top: 33px;
+  width: 881px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-size: 16px;
+  line-height: normal;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-links-text {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.nav-links-text a,
+.nav-links-text .nav-current,
+.nav-links-text .nav-resume {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nav-resume {
+  cursor: default;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.nav-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.nav-icon img {
+  width: 100%;
+  height: 100%;
+}

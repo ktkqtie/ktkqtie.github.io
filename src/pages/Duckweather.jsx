@@ -21,7 +21,7 @@ const sketches = [
 const colorDucks = [
   { src: 'dw-color-4', left: 637, top: 0, w: 191, h: 247 },
   { src: 'dw-color-1', left: 53, top: 18, w: 180, h: 250 },
-  { src: 'dw-color-3', left: 439, top: 18, w: 191, h: 235 },
+  { src: 'dw-color-3', left: 439, top: 18, w: 191, h: 235, objectPosition: 'top' },
   { src: 'dw-color-2', left: 240, top: 21, w: 191, h: 247 },
 ];
 
@@ -120,7 +120,13 @@ export default function Duckweather() {
                   key={s.src}
                   src={`/images/${s.src}.png`}
                   alt="Colored duck character for a weather state"
-                  style={{ left: s.left, top: s.top, width: s.w, height: s.h }}
+                  style={{
+                    left: s.left,
+                    top: s.top,
+                    width: s.w,
+                    height: s.h,
+                    objectPosition: s.objectPosition || 'center',
+                  }}
                 />
               ))}
             </div>

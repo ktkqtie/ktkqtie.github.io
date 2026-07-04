@@ -19,10 +19,10 @@ const sketches = [
 ];
 
 const colorDucks = [
-  { src: 'dw-color-4', left: 637, top: 0, w: 191, h: 247 },
-  { src: 'dw-color-1', left: 53, top: 18, w: 180, h: 250 },
-  { src: 'dw-color-3', left: 439, top: 18, w: 191, h: 235, objectPosition: 'top' },
-  { src: 'dw-color-2', left: 240, top: 21, w: 191, h: 247 },
+  { src: 'dw-color-4', left: 584, top: 0, w: 191, h: 247 },
+  { src: 'dw-color-1', left: 0, top: 18, w: 180, h: 250 },
+  { src: 'dw-color-3', left: 386, top: 18, w: 191, h: 235, objectPosition: 'top' },
+  { src: 'dw-color-2', left: 187, top: 21, w: 191, h: 247 },
 ];
 
 const dwSteps = [

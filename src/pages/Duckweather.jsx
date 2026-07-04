@@ -7,15 +7,15 @@ import './Duckweather.css';
 const DUCK_URL = 'https://ktkqtie.github.io/final_project/';
 
 const sketches = [
-  { src: 'dw-sketch-7', left: 646, top: 0, w: 202, h: 240 },
-  { src: 'dw-sketch-1', left: 69, top: 41, w: 149, h: 202 },
-  { src: 'dw-sketch-5', left: 428, top: 47, w: 209, h: 196 },
-  { src: 'dw-sketch-4', left: 218, top: 72, w: 187, h: 146 },
-  { src: 'dw-sketch-8', left: 526, top: 229, w: 210, h: 255 },
-  { src: 'dw-sketch-9', left: 60, top: 240, w: 166, h: 258 },
-  { src: 'dw-sketch-2', left: 716, top: 252, w: 162, h: 224 },
-  { src: 'dw-sketch-6', left: 358, top: 264, w: 180, h: 227 },
-  { src: 'dw-sketch-3', left: 217, top: 261, w: 150, h: 230 },
+  { src: 'dw-sketch-7', left: 586, top: 0, w: 202, h: 240 },
+  { src: 'dw-sketch-1', left: 9, top: 41, w: 149, h: 202 },
+  { src: 'dw-sketch-5', left: 368, top: 47, w: 209, h: 196 },
+  { src: 'dw-sketch-4', left: 158, top: 72, w: 187, h: 146 },
+  { src: 'dw-sketch-8', left: 466, top: 229, w: 210, h: 255 },
+  { src: 'dw-sketch-9', left: 0, top: 240, w: 166, h: 258 },
+  { src: 'dw-sketch-2', left: 656, top: 252, w: 162, h: 224 },
+  { src: 'dw-sketch-6', left: 298, top: 264, w: 180, h: 227 },
+  { src: 'dw-sketch-3', left: 157, top: 261, w: 150, h: 230 },
 ];
 
 const colorDucks = [
